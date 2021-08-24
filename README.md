@@ -1,7 +1,9 @@
+
 # Software Construction (2nd part)
-แนะนำให้ดู
+
 [Playlist](https://www.youtube.com/playlist?list=PLTcyHqDgvDNRvroP8ou-c5tb1lG2_7ltE)
-คู่กับตัวโค้ดเพื่อทำความเข้าใจ
+
+[IO.pdf](https://github.com/Ratchathorn/software-construction-2nd-part/files/7038098/8.io.pdf)
 
 ## 24/08/2021
 * io >> _1_SystemOutErrDifference
