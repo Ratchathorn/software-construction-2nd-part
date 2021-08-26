@@ -5,6 +5,9 @@
 
 [IO.pdf](https://github.com/Ratchathorn/software-construction-2nd-part/files/7038098/8.io.pdf)
 
+[Exception.pdf](https://github.com/Ratchathorn/software-construction-2nd-part/files/7051784/9.exception.pdf)
+
+
 ## Input Output 1
 * io >> _1_SystemOutErrDifference
 * io >> _2_ReadMethod
