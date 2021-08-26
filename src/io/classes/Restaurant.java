@@ -1,12 +1,8 @@
 package io.classes;
 
-/**
+/*
  * Restaurant Class
- * <p>
  * คลาสของ Restaurant
- *
- * @author Namkhing
- * @since 24/08/2021
  */
 
 public class Restaurant {

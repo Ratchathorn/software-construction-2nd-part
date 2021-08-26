@@ -1,0 +1,44 @@
+Version 1.1 [26/08/2021]
+- Edited README.md
+- Changed javadoc to normal comment
+- Removed unnecessary naming conventions
+- Removed unnecessary classes and files
+- Classes
+    - io
+        _9_WriteFile >> _8_WriteFile
+        -- _8_ReadCSVFile
+- Files
+    - io
+        _5_ReadFile.txt >> hello.txt
+        _6_ReadFile.txt >> numbers.txt
+        _7_ReadCSVFile.csv >> restaurants.txt
+        _9_WriteFile.txt >> from-user.txt
+        -- _8_ReadCSVFile.csv
+        -- _10_WriteFile.txt
+
+
+Version 1 [24/08/2021]
+- Added README.md
+- Classes
+    - io
+        ++ _1_SystemOutErrDifference
+        ++ _2_ReadMethod
+        ++ _3_ReadLineMethod
+        ++ _4_ReadLineMethodLoop
+        ++ _5_ReadFile
+        ++ _6_ReadFile
+        ++ _7_ReadCSVFile
+        ++ _8_ReadCSVFile
+        ++ _9_WriteFile
+        ++ _10_WriteFile
+    - io/classes
+        ++ Restaurant
+        ++ RestaurantDataSource
+- Files
+    - io
+        ++ _5_ReadFile.txt
+        ++ _6_ReadFile.txt
+        ++ _7_ReadCSVFile.csv
+        ++ _8_ReadCSVFile.csv
+        ++ _9_WriteFile.txt
+        ++ _10_WriteFile.txt

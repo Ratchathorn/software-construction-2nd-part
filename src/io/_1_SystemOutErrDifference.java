@@ -1,12 +1,9 @@
 package io;
 
-/**
+/*
  * 1) System.out & System.err difference
- *
  * อธิบายความแตกต่างระหว่าง System.out กับ System.err
  *
- * @author Namkhing
- * @since 24/08/2021
  */
 
 public class _1_SystemOutErrDifference {

@@ -7,20 +7,10 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
+/*
  * RestaurantDataSource Class
- * <p>
- * RestaurantDataSource สร้างมาเพื่ออ่านข้อมูลจากไฟล์
- * โดยนำมาเก็บเป็น {@link java.util.List List} ของ {@link Restaurant Restaurant}
+ * สร้างมาเพื่ออ่านข้อมูลจากไฟล์ โดยนำมาเก็บเป็น List ของ Restaurant
  * แล้วจึงเรียกไปใช้ในภายหลัง โดยไม่ต้องเขียนใหม่ในโปรแกรมให้ยุ่งยาก
- * <p>
- * คลาสที่ใช้:
- * {@link Restaurant Restaurant}
- *
- * @see java.util.List
- * @see java.util.ArrayList
- * @author Namkhing
- * @since 24/08/2021
  */
 
 public class RestaurantDataSource {
