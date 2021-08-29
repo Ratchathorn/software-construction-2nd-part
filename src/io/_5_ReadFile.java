@@ -6,9 +6,9 @@ import java.io.FileReader;
 import java.io.IOException;
 
 /*
- * 5) Reading files
- * ประยุกต์ readLine() method ไปใช้กับการวนลูปเพื่อรับค่าจากไฟล์
- */
+5) Reading files
+ประยุกต์ readLine() method ไปใช้กับการวนลูปเพื่อรับค่าจากไฟล์
+*/
 
 public class _5_ReadFile {
     public static void main(String[] args) {

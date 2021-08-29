@@ -5,13 +5,13 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /*
- * 3) System.in.readLine() Method
- * อธิบาย readLine() method
- *
- * readLine() อยู่ใน BufferedReader ซึ่งจะรับค่า Reader เข้าไป
- * การที่ System.in เป็น InputStream หมายความว่าต้องแปลง InputStream เป็น Reader ก่อนไปใช้ใน BufferedReader
- * โดยใช้ InputStreamReader แปลง
- */
+3) System.in.readLine() Method
+อธิบาย readLine() method
+
+readLine() อยู่ใน BufferedReader ซึ่งจะรับค่า Reader เข้าไป
+การที่ System.in เป็น InputStream หมายความว่าต้องแปลง InputStream เป็น Reader ก่อนไปใช้ใน BufferedReader
+โดยใช้ InputStreamReader แปลง
+*/
 
 public class _3_ReadLineMethod {
     public static void main(String[] args) {

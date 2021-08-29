@@ -6,11 +6,11 @@ import io.classes.RestaurantDataSource;
 import java.util.List;
 
 /*
- * 7) Reading .csv files
- * ประยุกต์การอ่านค่าจากไฟล์ไปใช้กับ .csv
- *
- * .csv (Comma-Separated Values) คือรูปแบบไฟล์ที่เก็บข้อมูลหลายตัวในบรรทัดเดียวโดยใช้สัญลักษณ์ขั้น
- */
+7) Reading .csv files
+ประยุกต์การอ่านค่าจากไฟล์ไปใช้กับ .csv
+
+.csv (Comma-Separated Values) คือรูปแบบไฟล์ที่เก็บข้อมูลหลายตัวในบรรทัดเดียวโดยใช้สัญลักษณ์ขั้น
+*/
 
 public class _7_ReadCSVFile {
     public static void main(String[] args) {

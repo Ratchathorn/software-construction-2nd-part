@@ -17,4 +17,12 @@
 * io >> _6_ReadFile
 * io >> _7_ReadCSVFile
 * io >> _8_WriteFile
+
+## Input Output 2
+* io >> _9_CloseFile
+* io >> _10_Scanner
+* io >> _11_WriteObjectText
+* io >> _12_WriteObject
+* io >> _13_ReadObject
+* io >> _14_Documentation
  

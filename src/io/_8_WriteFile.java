@@ -3,13 +3,10 @@ package io;
 import java.io.*;
 
 /*
- * 8) Writing files
- * อธิบายการเขียนไฟล์
- *
- * การอ่านลงไฟล์อ่านได้เร็วเพราะใช้ CPU แต่การเขียนลงไฟล์จะช้าเพราะใช้ Disk
- * ดังนั้น ถ้าโปรแกรมจบก่อนเขียนเสร็จ ข้อมูลจะผิดพลาด
- * ต้องปิดไฟล์ด้วย close() ก่อน (รอให้เขียนเสร็จแล้วค่อยปิด)
- */
+8) Writing files
+อธิบายการเขียนไฟล์
+
+*/
 
 public class _8_WriteFile {
     public static void main(String[] args) {
@@ -27,6 +24,14 @@ public class _8_WriteFile {
 
             // ใช้ PrintWriter เพราะสามารถใช้ println() เขียนลงไฟล์ได้เลย (เหมือน System.out)
             PrintWriter file = new PrintWriter(fileWriter);
+
+            // ใช้ BufferedWriter เพราะทำงานเร็ว แต่ควรใช้ newLine() ขึ้นบรรทัดใหม่และใช้ write() เขียนลงไฟล์
+            // BufferedWriter out = new BufferedWriter(fileWriter);
+            // out.write(">> " + line); // ใช้ write() แทนเพราะ BufferedWriter ไม่มี println()
+
+            // ใช้ PrintWriter และ BufferedWriter เพราะทำงานเร็วและสะดวก
+            // สร้าง BufferedWriter เก็บข้อมูลที่เขียน แล้วเอา PrintWriter ครอบเพื่อสั่ง println ง่ายๆ
+            //  PrintWriter out = new PrintWriter(new BufferedWriter(fileWriter));
 
             System.out.println("Input text to file:");
             String line = buffer.readLine();

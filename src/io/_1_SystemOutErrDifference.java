@@ -1,9 +1,8 @@
 package io;
 
 /*
- * 1) System.out & System.err difference
- * อธิบายความแตกต่างระหว่าง System.out กับ System.err
- *
+1) System.out & System.err difference
+อธิบายความแตกต่างระหว่าง System.out กับ System.err
  */
 
 public class _1_SystemOutErrDifference {

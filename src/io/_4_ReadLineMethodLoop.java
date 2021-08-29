@@ -5,9 +5,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /*
- * 4) System.in.readLine() Method with loop
- * ประยุกต์ readLine() method ไปใช้กับการวนลูปเพื่อรับค่าจาก input
- */
+4) System.in.readLine() Method with loop
+ประยุกต์ readLine() method ไปใช้กับการวนลูปเพื่อรับค่าจาก input
+*/
 
 public class _4_ReadLineMethodLoop {
     public static void main(String[] args) {

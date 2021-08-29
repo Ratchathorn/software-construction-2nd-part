@@ -3,9 +3,9 @@ package io;
 import java.io.IOException;
 
 /*
- * 2) System.in.read() Method
- * อธิบาย read() method
- */
+2) System.in.read() Method
+อธิบาย read() method
+*/
 
 public class _2_ReadMethod {
     public static void main(String[] args) {

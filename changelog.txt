@@ -1,3 +1,18 @@
+Version 2 [29/08/2021]
+- Edited README.md
+- Classes
+    - io
+        ++ _9_CloseFile
+        ++ _10_Scanner
+        ++ _11_WriteObjectText
+        ++ _12_WriteObject
+        ++ _13_ReadObject
+        ++ _14_Documentation
+- Files
+    - io
+        ++ rest.obj
+
+
 Version 1.1 [26/08/2021]
 - Edited README.md
 - Changed javadoc to normal comment

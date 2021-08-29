@@ -1,21 +1,58 @@
 package io.classes;
 
+import java.io.Serializable;
+
 /*
  * Restaurant Class
  * คลาสของ Restaurant
  */
 
-public class Restaurant {
+/**
+ * Restaurant class stores information about restaurant.
+ *
+ * @author Namkhing
+ * @since 1.0
+ */
+public class Restaurant implements Serializable {
+
+    static final long serialVersionUID = -2082421832283145772L; // ของทุกคนไม่เหมือนกัน
+
     private String name;
     private String type;
     private String address;
     private double rating;
+    private int numSeats;
 
-    public Restaurant(String name, String type, String address) {
+    /**
+     * a maximum of seats is 100
+     */
+    public static int MAX_SEATS = 100;
+
+    /**
+     * Restaurant Constructor that takes all information about restaurant.
+     *
+     * @param name restaurant name
+     * @param type  restaurant type
+     * @param address restaurant address
+     * @param rating restaurant rating, is a double between 0.0-5.0
+     */
+    public Restaurant(String name, String type, String address, double rating) {
         this.name = name;
         this.type = type;
         this.address = address;
-        this.rating = 0;
+        this.rating = rating;
+    }
+
+    public Restaurant(String name, String type, String address) {
+        this(name,type,address,0);
+    }
+
+    /**
+     * Return the number of seats in restaurant
+     * @return number of seats in restaurant
+     */
+    public int getNumSeats() {
+        return numSeats;
     }
 
     public String getName() {
@@ -52,11 +89,9 @@ public class Restaurant {
 
     @Override
     public String toString() {
-        return "Restaurant{" +
-                "name='" + name + '\'' +
-                ", type='" + type + '\'' +
-                ", address='" + address + '\'' +
-                ", rating=" + rating +
-                '}';
+        return name + ',' +
+                type + ',' +
+                address + ',' +
+                rating;
     }
 }
