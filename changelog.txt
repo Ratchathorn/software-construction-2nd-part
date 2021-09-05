@@ -1,3 +1,31 @@
+Version 3 [05/09/2021]
+- Edited README.md
+- Classes
+    - io/classes
+        RestaurantDataSource // added a new exception
+    - exception
+        ++ _15_ExceptionHandling
+        ++ _16_CatchOrdering
+        ++ _17_Finally
+    - exception/classes
+        ++ ATM
+        ++ BankAccount
+        ++ NotEnoughMoneyException
+        ++ RestaurantFormatException
+    - interfaces
+        ++ _18_Interface
+        ++ _19_Interface
+    - interfaces/classes
+        ++ BankAccount
+        ++ Country
+        ++ Data
+        ++ Keyboard
+        ++ Measurable
+        ++ Organ
+        ++ Pianist
+        ++ Piano
+
+
 Version 2 [29/08/2021]
 - Edited README.md
 - Classes

@@ -1,5 +1,7 @@
 package io.classes;
 
+import exception.classes.RestaurantFormatException;
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -46,6 +48,8 @@ public class RestaurantDataSource {
             System.err.println("Cannot read file " + filename);
         } catch (IOException e) {
             System.err.println("Error reading from file");
+        } catch (RestaurantFormatException e) {
+            System.err.println("Restaurant file contains wrong data format");
         }
         return restaurants;
     }
