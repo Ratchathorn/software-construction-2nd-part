@@ -9,7 +9,7 @@ public class BankAccount {
 
     public BankAccount(double balance) {
         this.balance = balance;
-    }
+    } // help
 
     public void deposit(double amount) {
         balance += amount;
